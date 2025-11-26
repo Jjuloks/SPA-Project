@@ -1,0 +1,25 @@
+
+.navbar {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 20px;
+    display: flex;            
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.navbar a {
+    font-size: 25px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
