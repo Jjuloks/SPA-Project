@@ -6,7 +6,7 @@ const StronaGlowna = () => {
     return (
         <div className="homepage">
             <h1>SPA Białystok</h1>
-            <p>Odpręż sie</p>
+            <h2>ul.Lipowa 12, 15-369 Białystok</h2>
         </div>
     );
 }
