@@ -23,7 +23,9 @@
 
 
 .oferty {
-    display: flex;            
-    align-items: center;
-    justify-content: center;
+display: flex;            
+  flex-wrap: wrap;    
+  justify-content: center; 
+  gap: 20px;            
+  margin-top: 30px;     
 }
