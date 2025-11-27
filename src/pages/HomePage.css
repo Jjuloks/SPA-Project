@@ -7,11 +7,23 @@
     text-shadow: 0 0 10px black;
 }
 
-
+.homepage h2 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 0 10px black;
+}
 
 
 
 .homepage p {
     text-align: center;
     
+}
+
+
+.oferty {
+    display: flex;            
+    align-items: center;
+    justify-content: center;
 }
