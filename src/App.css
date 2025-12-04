@@ -2,19 +2,20 @@ html, body, #root {
     margin: 0;
     padding: 0;
     height: 100%;
-    background: url("./assets/spabackground.jpg") no-repeat center center fixed;
+    background: url("./assets/background.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 .content {
     flex: 1; 
-    padding-top: 100px; 
+    padding-top: 30px; 
 }
 
 
 .layout {
     min-height: 100%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
