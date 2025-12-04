@@ -1,41 +1,38 @@
 import React from 'react';
-import data from "../database/db.spa.json"
-import "../pages/DataGraph.css"
+import "../pages/DataGraph.css";
 
-const DataGraph = () => {
-  const wszystkierezerwacje= data.rezerwacje;
-
-  const listaDoWyswietlenia = wszystkierezerwacje.map((rezerwacja)=>
-  <tr key={rezerwacja.id}><td>{rezerwacja.id}</td>
-    <td>{rezerwacja.imie} {rezerwacja.nazwisko}</td>
-    <td>{rezerwacja.email}</td>
-    <td>{rezerwacja.zabieg}</td>
-    <td>{rezerwacja.ocena}</td>
-    <td>{rezerwacja.rodo ? "TAK" : "NIE"}</td>
+const DataGraph = ({ rezerwacje }) => {
+  const lista = rezerwacje.map((r, index) => (
+    <tr key={index}>
+      <td>{index + 1}</td>
+      <td>{r.imie} {r.nazwisko}</td>
+      <td>{r.email}</td>
+      <td>{r.zabieg}</td>
+      <td>{r.uwagi}</td>
+      <td>{r.ocena}</td>
+      <td>{r.rodo ? "TAK" : "NIE"}</td>
     </tr>
-  );
+  ));
 
-    return (
-        <div>
-          <h1 className="spa-tittle">Baza danych rezerwacji naszego spa</h1>
-     <table className="spa-table">
+  return (
+    <div>
+      <h1 className="spa-tittle">Baza danych rezerwacji naszego spa</h1>
+      <table className="spa-table">
         <thead>
           <tr>
             <th>ID</th>
             <th>Klient</th>
             <th>Email</th>
             <th>Zabieg</th>
+            <th>Uwagi</th>
             <th>Ocena</th>
             <th>RODO</th>
           </tr>
         </thead>
-
-        <tbody>
-          {listaDoWyswietlenia}
-        </tbody>
+        <tbody>{lista}</tbody>
       </table>
-        </div>
-    );
-}
+    </div>
+  );
+};
 
 export default DataGraph;

@@ -1,19 +1,53 @@
 
-.h1-form{
-      text-align: center;
-    font-size: 38px;
-    color: white;
+.form-container {
+  width: 100%;
+  max-width: 500px;      
+  margin: auto; 
+    max-height: 950px;
+  padding: 25px;
+  background-color:  #d8d8be;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  opacity: 0.8;
 }
 
 
-
-form {
-    justify-content: center;
-    align-self: center;
-    margin-left: 50px;
+.h1-form {
+    color: #6f6c30;
+  text-align: center;
+  margin-bottom: 20px;
 }
-
 
 label {
-    color: white;
+    color: #052805;
+    font-size:15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 6px;
+  border: 1px solid whitesmoke;
+}
+
+.form-group, .form-check {
+  margin-bottom: 15px;
+}
+
+.btnWyslij {
+  width: 100%;
+  background-color: #6f6c30;   
+  border: 2px solid #6f6c30;   
+  color: white;                
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.btnWyslij:hover {
+  background-color: #8c8744;   
+  border-color: #8c8744;
 }
