@@ -22,7 +22,6 @@ import '../pages/Form.css'
 
   return (
 <div> 
-  <h1 className="h1-form">Wypełnij nasz formularz</h1>
      <form>
      <div class="form-group">
       <label>Imię</label>
@@ -37,7 +36,7 @@ import '../pages/Form.css'
       </div>
       <br/>
       <label for="exampleFormControlInput1">Email </label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="twojmail@gmail.com"></input>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="twojemail@gmail.com"></input>
     <br/>
       <label>Zabieg</label>
       <br/>
@@ -57,11 +56,11 @@ import '../pages/Form.css'
       <label>Ocena naszego lokalu</label>
       <br/>
       <select class="form-control" name="oceny" onChange={(e) => setOcena(e.target.value)}>
-        <option value="1gwiazdka">⭐</option>
-        <option value="2gwiazdek">⭐⭐</option>
-        <option value="3gwiazdki">⭐⭐⭐</option>
-        <option value="4gwiazdki">⭐⭐⭐⭐</option>
-        <option value="5gwiazdek">⭐⭐⭐⭐⭐</option>
+        <option value="1gwiazdka">1 gwiazdka</option>
+        <option value="2gwiazdek">2 gwiazdki</option>
+        <option value="3gwiazdki">3 gwiazdki</option>
+        <option value="4gwiazdki">4 gwiazdki</option>
+        <option value="5gwiazdek">5 gwiazdek</option>
       </select>
       </div>
       <br/>
@@ -78,3 +77,5 @@ import '../pages/Form.css'
 
 
 export  default Odczyt;
+
+

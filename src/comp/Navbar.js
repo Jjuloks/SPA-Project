@@ -6,7 +6,6 @@ import Logo from '../assets/spabackground.jpg'
 const NavBar = () => {
     return (
         <div className="navbar">
-            <div className="navbarlinks"> 
             <NavLink to='/' 
 
                 >Home</NavLink>
