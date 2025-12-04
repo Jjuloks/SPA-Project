@@ -1,0 +1,54 @@
+{
+  "rezerwacje": [
+    {
+      "id": 1,
+      "imie": "Jan",
+      "nazwisko": "Kowalski",
+      "email": "jan.kowalski@example.com",
+      "zabieg": "Spa",
+      "uwagi": "Proszę o delikatny masaż twarzy.",
+      "ocena": "⭐⭐⭐⭐⭐",
+      "rodo": true
+    },
+    {
+      "id": 2,
+      "imie": "Anna",
+      "nazwisko": "Nowak",
+      "email": "anna.nowak@example.com",
+      "zabieg": "Sauna",
+      "uwagi": "",
+      "ocena": "⭐⭐⭐⭐",
+      "rodo": true
+    },
+    {
+      "id": 3,
+      "imie": "Marek",
+      "nazwisko": "Zieliński",
+      "email": "marek.zielinski@example.com",
+      "zabieg": "Masaz",
+      "uwagi": "Silny masaż pleców.",
+      "ocena": "⭐⭐⭐",
+      "rodo": false
+    },
+    {
+      "id": 4,
+      "imie": "Ewa",
+      "nazwisko": "Wójcik",
+      "email": "ewa.wojcik@example.com",
+      "zabieg": "Spa",
+      "uwagi": "Proszę o wegańskie kosmetyki.",
+      "ocena": "⭐⭐⭐⭐⭐",
+      "rodo": true
+    },
+    {
+      "id": 5,
+      "imie": "Tomasz",
+      "nazwisko": "Baran",
+      "email": "tomasz.baran@example.com",
+      "zabieg": "Sauna",
+      "uwagi": "Preferuję późne godziny.",
+      "ocena": "⭐⭐",
+      "rodo": true
+    }
+  ]
+}

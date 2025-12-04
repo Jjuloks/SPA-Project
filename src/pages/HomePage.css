@@ -1,19 +1,26 @@
 
-
 .homepage h1 {
     text-align: center;
-    color: white;
-    font-size: 3rem;
+    color: white ;
+    font-size: 48px;
+    font-weight: bold;
     text-shadow: 0 0 10px black;
+    font-family: 'Poppins';
+   
 }
 
 .homepage h2 {
     text-align: center;
     color: white;
-    font-size: 3rem;
+    font-size: 17px;
+    font-family: 'Poppins';
     text-shadow: 0 0 10px black;
 }
 
+.fontaa {
+    font-family :'Poppins';
+    font-weight: bold;
+}
 
 
 .homepage p {

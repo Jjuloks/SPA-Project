@@ -7,8 +7,11 @@ import Sauna from '../assets/sauna.jpg'
 const StronaGlowna = () => {
     return (
         <div className="homepage">
+            <div className="fontaa">
+            <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'></link>
             <h1>SPA Białystok</h1>
             <h2>ul.Lipowa 12, 15-369 Białystok</h2>
+             </div>
             <div className="oferty"> 
         <OfferCard/>
                   </div>

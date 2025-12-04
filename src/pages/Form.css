@@ -1,0 +1,17 @@
+.h1-form{
+      text-align: center;
+    font-size: 38px;
+    color: white;
+}
+
+
+form {
+    justify-content: center;
+    align-self: center;
+    margin-left: 50px;
+}
+
+
+label {
+    color: white;
+}

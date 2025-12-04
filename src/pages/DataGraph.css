@@ -1,0 +1,47 @@
+.spa-tittle {
+    text-align: center;
+    font-size: 38px;
+    color: white;
+}
+
+
+.spa-table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  opacity : 0.65;
+  background-color : #d8d8be;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.spa-table thead th {
+  background-color: #6f6c30 ;   
+  color:#d8d8be ;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.spa-table td, 
+.spa-table th {
+    color :#052805;
+  padding: 12px 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
+
+
+.spa-table tbody tr:hover {
+  background-color: whitesmoke;
+  transition: 0.2s;
+}
+
+@media (max-width: 600px) {
+  .spa-table {
+    font-size: 14px;
+  }
+}
