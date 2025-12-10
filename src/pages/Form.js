@@ -36,7 +36,7 @@ const Form = ({ dodajRezerwacje }) => {
 
   return (
     <div className="form-container">
-      <h1 className="h1-form">Wypełnij nasz formularz</h1>
+      <h1 className="h1-form">Dokonaj rezerwacji</h1>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Imię</label>
