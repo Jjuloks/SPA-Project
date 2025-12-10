@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+Single Page Application – Projekt w React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projekt jest jednostronicową aplikacją (SPA) stworzoną w technologii React, zawierającą kilka podstron, formularz, integrację z bazą danych (JSON/REST), komponenty wizualne oraz dane prezentowane użytkownikowi. Celem projektu było przećwiczenie organizacji kodu w React, pracy z komponentami, zarządzania stanem oraz komunikacji z backendem.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Funkcjonalności
 
-### `npm test`
+Strona główna z dynamicznymi komponentami
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Formularz umożliwiający dodawanie i obsługę danych
 
-### `npm run build`
+Wykorzystanie pliku JSON jako źródła danych (lokalna baza)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Oddzielone podstrony, takie jak:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+DataGraph.js – prezentacja danych w formie graficznej
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Form.js – formularz użytkownika
 
-### `npm run eject`
+Komponenty wspólne: nawigacja, stopka, karty ofert
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Obsługa zasobów graficznych w folderze assets/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Technologie użyte w projekcie
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React – logika aplikacji, SPA
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+JavaScript (ES6+)
 
-## Learn More
+HTML5, CSS3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Bootstrap – responsywny layout i stylowanie
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Lokalna baza danych (db.spa.json)
 
-### Code Splitting
+Modularna architektura komponentów
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Uruchomienie projektu :
+npm install -> npm start
 
-### Advanced Configuration
+Aplikacja będzie dostępna pod adresem:
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projekt został wykonany w celu:
+utrwalenia podstaw Reacta w praktycznym zastosowaniu
+nauczenia się organizacji plików i komponentów w większej strukturze
+pracy z lokalną bazą danych / API
+tworzenia wielostronicowego SPA routing
+stylowania interfejsu z wykorzystaniem Bootstrapa i własnych arkuszy CSS
